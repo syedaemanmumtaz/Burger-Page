@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+font-family: "Playfair Display"; 
+letter-spacing: 5px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc ;
+    box-shadow: 3px 5px 6px rgba(1,1,1, 0.5); 
+    padding: 0 16px;
+}
+.logo{
+    padding: 9px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.logo:hover{
+    transition: 0.5s ease-out;
+    background-color: rgb(172, 170, 170);
+}
+.icons ul,li{
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    padding-right: 10px;
+}
+.icons li{
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.icons li:hover{
+    transition: 0.3s ease-out;
+    background-color: #607d8b;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.jumbotron{
+    width: 100%; 
+    height: 100vh;
+}
+.jumbotron-img{
+    background-image: url(/hamburger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 100vh;
+}
+.jumbotron-contant{
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.jumbotron-contant h3{
+    padding: 20px;
+    font-weight: 20px;
+    font-size: 30px;
+    color: gray;
+}
+.section-01{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+    max-width:100%;
+}
+.about-img{
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 100%;
+    height:auto;
+}
+.about-contant{
+    text-align: start;
+    padding-top: 50px;
+    padding: 20px;
+}
+.about-pera{
+    font-family:Georgia, 'Times New Roman', Times, serif!important;
+    line-height: 1.5;
+    font-size: 15px !important ;
+    padding: 15px;
+}
+.gray{
+    color: gray;
+}
+span{
+    background-color: rgb(218, 218, 218);
+}
+.about-contant h5{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 50;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.about-contant h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+.section-02{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.center{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 150;
+    /* padding-top: 10px; */
+    padding: 10px 15px!important;
+}
+.menu-contant{
+    text-align: justify;
+    padding: 10px;
+}
+.text-gray{
+    color: gray;
+    padding-bottom: 26px;
+}
+.menu-contant h4{
+    padding:  15px 0;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact-section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 100%;
+    padding: 65px 65px;
+    /* margin: 0 auto; */
+    height: auto;
+}
+.text-color{
+    color: #607d8b;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.contact-section h1{
+    padding: 25px 0;
+    font-size: 35px;
+    font-weight: 100;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form p{
+    display: block;
+    padding: 10px;
+}
+#date{
+    display: flex;
+    justify-content: space-around;
+}
+.input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid#ccc;
+    width: 100%;
+}
+.button{
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif!important;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.button:hover{
+    transition: 0.5s ease-out;
+    background-color: gray;
+}
+@media (
+    max-width:500px){
+        .icons{
+            display: none;
+        }
+        .gray{
+            display: none;
+        }
+        .menu-img{
+            display: flex;
+            flex-direction: column;
+        }
+        .section-01{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .about-img{
+            display: none;
+        }
+        .gray{
+            display: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
